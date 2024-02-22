@@ -14,3 +14,5 @@ Follow this Video link to install Android in Ubuntu.<br><br>
 # Postman
     https://www.youtube.com/watch?v=XBxtX-tWBr4&ab_channel=ProgrammingKnowledge2
 Youtube link to install Postman in Ubuntu.
+# Command to Install Postman
+    sudo snap install postman
