@@ -19,4 +19,7 @@ Youtube link to install Postman in Ubuntu.
 <br><br>
 # Chrome
     sudo apt install ./google-chrome-stable_current_amd64.deb
-Download Chrome ,Open terminal, go to Downloads directory and run this command in Ubuntu.<br><br>
+Download Chrome ,Open terminal, go to Downloads directory and run this command.<br><br>
+# Microsoft Edge
+    sudo apt install ./microsoft-edge-stable_121.0.2277.128-1_amd64.de
+Download Microsoft Edge, Open terminal, go to Downloads directory and run this command according to your downloded version.<br><br>
