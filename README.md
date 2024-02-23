@@ -23,3 +23,10 @@ Download Chrome ,Open terminal, go to Downloads directory and run this command.<
 # Microsoft Edge
     sudo apt install ./microsoft-edge-stable_121.0.2277.128-1_amd64.dev
 Download Microsoft Edge, Open terminal, go to Downloads directory and run this command according to your downloded version.<br><br>
+#pug
+
+    sudo apt update
+    sudo apt install nodejs npm
+    sudo npm install -g pug-cli
+    pug --version
+Follow this command in terminal of Ubuntu to install pug.
