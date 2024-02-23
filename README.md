@@ -23,7 +23,7 @@ Download Chrome ,Open terminal, go to Downloads directory and run this command.<
 # Microsoft Edge
     sudo apt install ./microsoft-edge-stable_121.0.2277.128-1_amd64.dev
 Download Microsoft Edge, Open terminal, go to Downloads directory and run this command according to your downloded version.<br><br>
-#pug
+# pug
 
     sudo apt update
     sudo apt install nodejs npm
