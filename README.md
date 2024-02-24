@@ -29,4 +29,20 @@ Download Microsoft Edge, Open terminal, go to Downloads directory and run this c
     sudo apt install nodejs npm
     sudo npm install -g pug-cli
     pug --version
-Follow this command in terminal of Ubuntu to install pug.
+Follow this command in terminal of Ubuntu to install pug.<br>
+
+# Apache
+    sudo apt update
+    sudo apt install apache2
+    sudo ufw app list
+    sudo ufw allow 'Apache'
+    sudo ufw status
+    sudo systemctl status apache2
+
+<br><br>
+
+# Unistall Apache
+    sudo systemctl stop apache2
+    sudo apt purge apache2
+    sudo apt autoremove
+
