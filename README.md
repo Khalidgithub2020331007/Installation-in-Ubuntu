@@ -1,3 +1,8 @@
+# tree
+    sudo apt update
+    sudo apt install tree
+    tree
+Run this command in terminal to install tree.
 # MongoDB
 
     https://www.youtube.com/watch?v=HSIh8UswVVY
