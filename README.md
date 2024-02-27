@@ -1,3 +1,9 @@
+# Java
+    sudo apt update
+    java -version
+    java -version
+
+
 # tree
     sudo apt update
     sudo apt install tree
