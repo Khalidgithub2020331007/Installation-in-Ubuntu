@@ -1,3 +1,9 @@
+# Unistall Java
+    java -version
+    sudo apt remove openjdk-21-jdk
+    sudo rm -rf /usr/lib/jvm/*
+    sudo apt update
+
 # Java
     sudo apt update
     java -version
