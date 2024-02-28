@@ -1,3 +1,17 @@
+# Run xampp
+    sudo ./xampp-linux-x64-8.2.12-0-installer.run
+# Install waamp
+    sudo apt update
+    sudo apt install apache2
+    sudo apt update
+    sudo apt install mysql-server
+    sudo apt install php libapache2-mod-php php-mysql
+    sudo apt install phpmyadmin
+    sudo systemctl restart apache2
+
+
+
+
 # WhatsApp
     sudo apt update
     sudo snap install whatsapp-for-linux
