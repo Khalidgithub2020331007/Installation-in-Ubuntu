@@ -1,3 +1,13 @@
+# Dart
+    sudo apt update
+    sudo apt install apt-transport-https gnupg
+    sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -'
+    sudo sh -c 'wget -qO- https://storage.googleapis.com/download.dartlang.org/linux/debian/dart_stable.list > /etc/apt/sources.list.d/dart_stable.list'
+    sudo apt update
+    sudo apt install dart
+    dart --version
+
+
 # Run xampp
     sudo ./xampp-linux-x64-8.2.12-0-installer.run
 # Install waamp
