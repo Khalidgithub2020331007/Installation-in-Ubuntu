@@ -1,3 +1,11 @@
+# Flatter
+    sudo apt update
+    sudo apt install python3-pip
+    pip3 install flatter
+    import flatter
+    pip3 show flatter
+
+
 # Dart
     sudo apt update
     sudo apt install apt-transport-https gnupg
