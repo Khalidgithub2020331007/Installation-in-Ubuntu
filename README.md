@@ -1,3 +1,11 @@
+# Eclipse
+    sudo apt update
+    sudo apt install default-jdk
+    wget https://mirror.umd.edu/eclipse/oomph/products/latest/eclipse-inst-jre-linux64.tar.gz
+    tar -xvf eclipse-inst-jre-linux64.tar.gz
+    
+https://linux.how2shout.com/2-methods-to-install-eclipse-ide-on-ubuntu-22-04-or-20-04-lts/    //follow this link
+
 # Flatter
     sudo apt update
     sudo apt install python3-pip
