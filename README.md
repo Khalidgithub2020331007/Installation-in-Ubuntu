@@ -1,8 +1,41 @@
+# Install Apache Tomcat
+    java -version
+    sudo apt-get update
+    sudo apt-get install default-jdk
+    sudo update-java-alternatives -l
+After run this command download tomcate and extract that file.
+ ```
+code ./bashrc
+```
+Go to VS Code and save CATALINA_HOME and JAVA_HOME path.<br>
+To cheak :
+
+```
+echo $CATALINA_HOME
+echo $JAVA_HOME
+```
+Save this file in conf/tomcat-users.xml between &lt;tomcat-users>&lt;/tomcat-users>:
+```
+<!-- user manager can access only manager section -->
+<role rolename="manager-gui" />
+<user username="manager" password="_add_password" roles="manager-gui" />
+<!-- user admin can access manager and admin section both -->
+<role rolename="admin-gui" />
+<user username="admin" password="_add_password_" roles="manager-gui,admin-gui" />
+```
+Finaly run this command and go to localhost:8080 in your browser:
+```
+chmod +x bin/startup.sh
+./bin/startup.sh
+```
 # Eclipse
     sudo apt update
     sudo apt install default-jdk
     wget https://mirror.umd.edu/eclipse/oomph/products/latest/eclipse-inst-jre-linux64.tar.gz
     tar -xvf eclipse-inst-jre-linux64.tar.gz
+    cd eclipse-installer/
+    ./eclipse-inst
+    
     
 https://linux.how2shout.com/2-methods-to-install-eclipse-ide-on-ubuntu-22-04-or-20-04-lts/    //follow this link
 
