@@ -1,3 +1,9 @@
+# Arduino
+    sudo apt update
+    sudo apt install arduino
+    sudo usermod -a -G dialout $USER
+
+
 # Install Apache Tomcat
     java -version
     sudo apt-get update
