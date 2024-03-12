@@ -1,8 +1,18 @@
+# WineHQ
+    sudo dpkg --add-architecture i386 
+    sudo mkdir -pm755 /etc/apt/keyrings
+    sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+    sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+    sudo apt update
+    sudo apt install --install-recommends winehq-stable
+
+
+
 # Arduino
     sudo apt update
     sudo apt install arduino
     sudo usermod -a -G dialout $USER
-
+Download Arduino and click arduino-ide
 
 # Install Apache Tomcat
     java -version
