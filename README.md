@@ -1,3 +1,7 @@
+# Mysql Workbench
+    sudo snap install mysql-workbench-community
+
+
 # WineHQ
     sudo dpkg --add-architecture i386 
     sudo mkdir -pm755 /etc/apt/keyrings
