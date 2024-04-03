@@ -18,6 +18,12 @@
     sudo usermod -a -G dialout $USER
 Download Arduino and click arduino-ide
 
+# Unistall Arduino
+    sudo apt-get remove arduino
+    sudo apt-get purge arduino
+    dpkg --get-selections | grep arduino
+
+
 # Install Apache Tomcat
     java -version
     sudo apt-get update
