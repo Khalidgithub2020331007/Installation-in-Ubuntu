@@ -14,8 +14,8 @@
 
 # Arduino
     sudo apt update
-    sudo apt install arduino
-    sudo usermod -a -G dialout $USER
+    sudo snap install arduino
+
 Download Arduino and click arduino-ide
 
 # Unistall Arduino
