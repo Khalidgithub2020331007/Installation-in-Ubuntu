@@ -168,3 +168,20 @@ Follow this command in terminal of Ubuntu to install pug.
     sudo systemctl stop apache2
     sudo apt purge apache2
     sudo apt autoremove
+# Batter
+#### Install
+    git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+    cd auto-cpufreq && sudo ./auto-cpufreq-installer
+    sudo auto-cpufreq --install
+    
+#### To check version and status
+    auto-cpufreq --version
+    sudo systemctl status auto-cpufreq
+    sudo auto-cpufreq --stats
+    sudo auto-cpufreq --install
+
+#### To stop
+    sudo systemctl stop auto-cpufreq
+
+
+    
