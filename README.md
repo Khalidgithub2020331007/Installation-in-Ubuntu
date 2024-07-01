@@ -1,5 +1,14 @@
-
-#### To Install Flutter
+# To Install Al Quran
+    https://flathub.org/apps/org.gtaf.quran
+Go to this link and download. Run the below command in terminal in the downloaded directory to install.
+```
+flatpak install flathub org.gtaf.quran
+```
+Run this directory to run this App on own directory.
+````
+flatpak run org.gtaf.quran
+````
+# To Install Flutter
     https://www.youtube.com/watch?v=e63OlW_2gpQ&ab_channel=CodeWithArjun
 
 # Mysql Workbench
