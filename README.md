@@ -2,7 +2,9 @@
     https://flathub.org/apps/org.gtaf.quran
 Go to this link and download. Run the below command in terminal in the downloaded directory to install.
 ```
+sudo apt update
 sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub org.gtaf.quran
 ```
 Run this directory to run this App on own directory.
