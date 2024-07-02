@@ -3,6 +3,7 @@
 Go to this link and download. Run the below command in terminal in the downloaded directory to install.
 ```
 flatpak install flathub org.gtaf.quran
+sudo apt install flatpak
 ```
 Run this directory to run this App on own directory.
 ````
